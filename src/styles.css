@@ -1,0 +1,11 @@
+.lp-schema-form {
+  display: grid;
+  gap: 1rem;
+}
+.lp-schema-form__field {
+  display: grid;
+  gap: 0.35rem;
+}
+.lp-schema-form__field [aria-invalid='true'] {
+  border-color: #b42318;
+}
